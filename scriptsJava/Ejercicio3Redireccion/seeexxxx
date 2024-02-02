@@ -1,0 +1,304 @@
+    PID TT       COMMAND
+      1 ?        /sbin/init splash
+      2 ?        [kthreadd]
+      3 ?        [rcu_gp]
+      4 ?        [rcu_par_gp]
+      5 ?        [slub_flushwq]
+      6 ?        [netns]
+      8 ?        [kworker/0:0H-events_highpri]
+     10 ?        [mm_percpu_wq]
+     11 ?        [rcu_tasks_rude_]
+     12 ?        [rcu_tasks_trace]
+     13 ?        [ksoftirqd/0]
+     14 ?        [rcu_sched]
+     15 ?        [migration/0]
+     16 ?        [idle_inject/0]
+     17 ?        [kworker/0:1-mm_percpu_wq]
+     18 ?        [cpuhp/0]
+     19 ?        [cpuhp/1]
+     20 ?        [idle_inject/1]
+     21 ?        [migration/1]
+     22 ?        [ksoftirqd/1]
+     24 ?        [kworker/1:0H-kblockd]
+     25 ?        [cpuhp/2]
+     26 ?        [idle_inject/2]
+     27 ?        [migration/2]
+     28 ?        [ksoftirqd/2]
+     30 ?        [kworker/2:0H-events_highpri]
+     31 ?        [cpuhp/3]
+     32 ?        [idle_inject/3]
+     33 ?        [migration/3]
+     34 ?        [ksoftirqd/3]
+     36 ?        [kworker/3:0H-events_highpri]
+     37 ?        [cpuhp/4]
+     38 ?        [idle_inject/4]
+     39 ?        [migration/4]
+     40 ?        [ksoftirqd/4]
+     42 ?        [kworker/4:0H-events_highpri]
+     43 ?        [cpuhp/5]
+     44 ?        [idle_inject/5]
+     45 ?        [migration/5]
+     46 ?        [ksoftirqd/5]
+     48 ?        [kworker/5:0H-kblockd]
+     49 ?        [cpuhp/6]
+     50 ?        [idle_inject/6]
+     51 ?        [migration/6]
+     52 ?        [ksoftirqd/6]
+     54 ?        [kworker/6:0H-events_highpri]
+     55 ?        [cpuhp/7]
+     56 ?        [idle_inject/7]
+     57 ?        [migration/7]
+     58 ?        [ksoftirqd/7]
+     60 ?        [kworker/7:0H-kblockd]
+     61 ?        [cpuhp/8]
+     62 ?        [idle_inject/8]
+     63 ?        [migration/8]
+     64 ?        [ksoftirqd/8]
+     66 ?        [kworker/8:0H-events_highpri]
+     67 ?        [cpuhp/9]
+     68 ?        [idle_inject/9]
+     69 ?        [migration/9]
+     70 ?        [ksoftirqd/9]
+     72 ?        [kworker/9:0H-events_highpri]
+     73 ?        [cpuhp/10]
+     74 ?        [idle_inject/10]
+     75 ?        [migration/10]
+     76 ?        [ksoftirqd/10]
+     78 ?        [kworker/10:0H-events_highpri]
+     79 ?        [cpuhp/11]
+     80 ?        [idle_inject/11]
+     81 ?        [migration/11]
+     82 ?        [ksoftirqd/11]
+     84 ?        [kworker/11:0H-events_highpri]
+     85 ?        [kdevtmpfs]
+     86 ?        [inet_frag_wq]
+     87 ?        [kauditd]
+     88 ?        [khungtaskd]
+     89 ?        [oom_reaper]
+     90 ?        [writeback]
+     91 ?        [kcompactd0]
+     92 ?        [ksmd]
+     93 ?        [khugepaged]
+    100 ?        [kworker/5:1-mm_percpu_wq]
+    140 ?        [kintegrityd]
+    141 ?        [kblockd]
+    142 ?        [blkcg_punt_bio]
+    143 ?        [tpm_dev_wq]
+    144 ?        [ata_sff]
+    145 ?        [md]
+    146 ?        [edac-poller]
+    147 ?        [devfreq_wq]
+    148 ?        [watchdogd]
+    149 ?        [kworker/7:1-events]
+    151 ?        [kworker/0:1H-events_highpri]
+    152 ?        [kworker/1:1-events]
+    154 ?        [kswapd0]
+    155 ?        [ecryptfs-kthrea]
+    157 ?        [kworker/4:1-events]
+    158 ?        [kthrotld]
+    159 ?        [irq/123-aerdrv]
+    160 ?        [irq/123-pcie-dp]
+    161 ?        [acpi_thermal_pm]
+    163 ?        [vfio-irqfd-clea]
+    164 ?        [mld]
+    165 ?        [ipv6_addrconf]
+    174 ?        [kstrp]
+    175 ?        [kworker/2:1-events_freezable]
+    176 ?        [kworker/8:1-events]
+    177 ?        [kworker/3:1-mm_percpu_wq]
+    182 ?        [zswap-shrink]
+    183 ?        [kworker/6:1-mm_percpu_wq]
+    184 ?        [kworker/11:1-events]
+    185 ?        [kworker/u25:0-i915_flip]
+    192 ?        [charger_manager]
+    193 ?        [kworker/1:2-events]
+    215 ?        [kworker/2:1H-events_highpri]
+    242 ?        [kworker/8:1H-events_highpri]
+    247 ?        [kworker/7:2-mm_percpu_wq]
+    262 ?        [kworker/6:1H-events_highpri]
+    265 ?        [kworker/11:1H-events_highpri]
+    268 ?        [kworker/4:1H-events_highpri]
+    270 ?        [scsi_eh_0]
+    271 ?        [scsi_tmf_0]
+    272 ?        [scsi_eh_1]
+    273 ?        [scsi_tmf_1]
+    274 ?        [scsi_eh_2]
+    275 ?        [scsi_tmf_2]
+    276 ?        [scsi_eh_3]
+    277 ?        [scsi_tmf_3]
+    282 ?        [kworker/11:2-mm_percpu_wq]
+    284 ?        [kworker/10:2-cgroup_destroy]
+    303 ?        [jbd2/sda2-8]
+    304 ?        [ext4-rsv-conver]
+    305 ?        [kworker/1:1H-events_highpri]
+    309 ?        [kworker/10:1H-events_highpri]
+    310 ?        [kworker/9:1H-events_highpri]
+    343 ?        [kworker/7:1H-events_highpri]
+    345 ?        [kworker/5:1H-events_highpri]
+    351 ?        [kworker/3:1H-events_highpri]
+    354 ?        /lib/systemd/systemd-journald
+    368 ?        [kworker/3:2-cgroup_destroy]
+    404 ?        [kworker/2:2-events]
+    409 ?        /lib/systemd/systemd-udevd
+    472 ?        [irq/127-mei_me]
+    516 ?        [kworker/u24:13-ext4-rsv-conversion]
+    522 ?        [kworker/u24:15-i915]
+    524 ?        [kworker/u24:16-i915]
+    525 ?        [led_workqueue]
+    533 ?        [cryptd]
+    587 ?        [card0-crtc0]
+    588 ?        [card0-crtc1]
+    751 ?        /lib/systemd/systemd-resolved
+    752 ?        /lib/systemd/systemd-timesyncd
+    793 ?        /usr/lib/accountsservice/accounts-daemon
+    794 ?        /usr/sbin/acpid
+    798 ?        avahi-daemon: running [J1.local]
+    799 ?        /usr/sbin/cron -f
+    801 ?        /usr/sbin/atopacctd
+    802 ?        /usr/sbin/cupsd -l
+    804 ?        /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    805 ?        /usr/sbin/NetworkManager --no-daemon
+    812 ?        /usr/sbin/irqbalance --foreground
+    815 ?        /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    828 ?        /usr/lib/policykit-1/polkitd --no-debug
+    830 ?        /usr/sbin/rsyslogd -n -iNONE
+    834 ?        /usr/lib/snapd/snapd
+    835 ?        /usr/libexec/switcheroo-control
+    836 ?        [kworker/9:3-events]
+    838 ?        /lib/systemd/systemd-logind
+    839 ?        /usr/sbin/thermald --systemd --dbus-enable --adaptive
+    840 ?        /usr/lib/udisks2/udisksd
+    841 ?        /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    843 ?        avahi-daemon: chroot helper
+    844 ?        /usr/bin/atop -R -w /var/log/atop/atop_20240115 600
+    900 ?        /usr/sbin/cups-browsed
+    909 ?        /usr/sbin/ModemManager
+    937 ?        /usr/sbin/gdm3
+    972 ?        /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    987 ?        /usr/sbin/apache2 -k start
+    988 ?        /usr/sbin/apache2 -k start
+    989 ?        /usr/sbin/apache2 -k start
+    990 ?        /usr/lib/postgresql/16/bin/postgres -D /var/lib/postgresql/16/main -c config_file=/etc/postgresql/16/main/postgresql.conf
+   1063 ?        /usr/bin/whoopsie -f
+   1071 ?        /usr/sbin/kerneloops --test
+   1074 ?        /usr/sbin/kerneloops
+   1092 ?        [iprt-VBoxWQueue]
+   1103 ?        postgres: 16/main: checkpointer 
+   1104 ?        postgres: 16/main: background writer 
+   1114 ?        [iprt-VBoxTscThr]
+   1122 ?        postgres: 16/main: walwriter 
+   1123 ?        postgres: 16/main: autovacuum launcher 
+   1125 ?        postgres: 16/main: logical replication launcher 
+   1130 ?        [kworker/5:2-events]
+   1134 ?        /usr/sbin/mysqld
+   1143 ?        /usr/libexec/rtkit-daemon
+   1312 ?        /usr/lib/upower/upowerd
+   1568 ?        [kworker/u25:1-i915_flip]
+   1592 ?        /usr/libexec/colord
+   1641 ?        gdm-session-worker [pam/gdm-password]
+   1654 ?        /lib/systemd/systemd --user
+   1655 ?        (sd-pam)
+   1660 ?        /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1662 ?        /usr/libexec/tracker-miner-fs
+   1666 ?        /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1681 ?        /usr/libexec/gvfsd
+   1686 ?        /usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+   1694 ?        /usr/bin/gnome-keyring-daemon --daemonize --login
+   1695 ?        /usr/libexec/gvfs-udisks2-volume-monitor
+   1702 ?        /usr/libexec/gvfs-afc-volume-monitor
+   1708 ?        /usr/libexec/gvfs-gphoto2-volume-monitor
+   1712 ?        /usr/libexec/gvfs-mtp-volume-monitor
+   1717 ?        /usr/libexec/gvfs-goa-volume-monitor
+   1721 ?        /usr/libexec/goa-daemon
+   1731 ?        /usr/libexec/goa-identity-service
+   1775 tty2     /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   1780 tty2     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1001/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   2140 tty2     /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+   2211 ?        /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   2229 ?        /usr/libexec/at-spi-bus-launcher
+   2234 ?        /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   2242 ?        /usr/libexec/gnome-session-ctl --monitor
+   2249 ?        /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2263 ?        /usr/bin/gnome-shell
+   2290 ?        ibus-daemon --panel disable --xim
+   2294 ?        /usr/libexec/ibus-memconf
+   2295 ?        /usr/libexec/ibus-extension-gtk3
+   2297 ?        /usr/libexec/ibus-x11 --kill-daemon
+   2300 ?        /usr/libexec/ibus-portal
+   2312 ?        /usr/libexec/at-spi2-registryd --use-gnome-session
+   2316 ?        /usr/libexec/xdg-permission-store
+   2318 ?        /usr/libexec/gnome-shell-calendar-server
+   2329 ?        /usr/libexec/evolution-source-registry
+   2336 ?        /usr/libexec/dconf-service
+   2344 ?        /usr/libexec/evolution-calendar-factory
+   2355 ?        /usr/libexec/evolution-addressbook-factory
+   2369 ?        /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2381 ?        /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   2390 ?        /usr/libexec/gsd-a11y-settings
+   2391 ?        /usr/libexec/gsd-color
+   2392 ?        /usr/libexec/gsd-datetime
+   2394 ?        /usr/libexec/gsd-housekeeping
+   2396 ?        /usr/libexec/gsd-keyboard
+   2399 ?        /usr/libexec/gsd-media-keys
+   2400 ?        /usr/libexec/gsd-power
+   2402 ?        /usr/libexec/gsd-print-notifications
+   2407 ?        /usr/libexec/gsd-rfkill
+   2408 ?        /usr/libexec/gsd-screensaver-proxy
+   2409 ?        /usr/libexec/gsd-sharing
+   2410 ?        /usr/libexec/gsd-smartcard
+   2413 ?        /usr/libexec/gsd-sound
+   2415 ?        /usr/libexec/gsd-usb-protection
+   2417 ?        /usr/libexec/gsd-wacom
+   2420 ?        /usr/libexec/gsd-wwan
+   2422 ?        /usr/libexec/gsd-xsettings
+   2444 ?        /usr/libexec/gsd-disk-utility-notify
+   2456 ?        /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2485 ?        /usr/libexec/ibus-engine-simple
+   2536 ?        /snap/snap-store/959/usr/bin/snap-store --gapplication-service
+   2554 ?        /usr/libexec/xdg-document-portal
+   2579 ?        /usr/libexec/gsd-printer
+   2671 ?        /usr/libexec/xdg-desktop-portal
+   2675 ?        /usr/libexec/xdg-desktop-portal-gtk
+   2708 ?        /usr/libexec/fwupd/fwupd
+   3366 ?        /opt/google/chrome/chrome
+   3371 ?        cat
+   3372 ?        cat
+   3374 ?        /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/j1/.config/google-chrome/Crash Reports --metrics-dir=/home/j1/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=120.0.6099.199 --initial-client-fd=5 --shared-client-connection
+   3376 ?        /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/j1/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=120.0.6099.199 --initial-client-fd=4 --shared-client-connection
+   3382 ?        /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable
+   3383 ?        /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable
+   3384 ?        /opt/google/chrome/nacl_helper
+   3387 ?        /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable
+   3407 ?        /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3412 ?        /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3423 ?        /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3483 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=154128602 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3523 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=154339786 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3543 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=154411970 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3564 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=154438304 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3578 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=154452487 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3788 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=34 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=158688628 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   3918 ?        /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   4235 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=47 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=167257413 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   4244 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=48 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=167599422 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   4302 ?        /usr/libexec/gvfsd-metadata
+   4305 ?        update-notifier
+   4464 ?        [kworker/0:0-events]
+   4467 ?        [kworker/10:0-mm_percpu_wq]
+   4531 ?        /bin/bash /usr/lib/apache-netbeans/platform/lib/nbexec --userdir /home/j1/.netbeans/19 --cachedir /home/j1/.cache/netbeans/19 --jdkhome  --branding nb --clusters /usr/lib/apache-netbeans/nb:/usr/lib/apache-netbeans/ergonomics:/usr/lib/apache-netbeans/ide:/usr/lib/apache-netbeans/extide:/usr/lib/apache-netbeans/java:/usr/lib/apache-netbeans/apisupport:/usr/lib/apache-netbeans/webcommon:/usr/lib/apache-netbeans/websvccommon:/usr/lib/apache-netbeans/enterprise:/usr/lib/apache-netbeans/mobility:/usr/lib/apache-netbeans/profiler:/usr/lib/apache-netbeans/python:/usr/lib/apache-netbeans/php:/usr/lib/apache-netbeans/identity:/usr/lib/apache-netbeans/harness:/usr/lib/apache-netbeans/cnd:/usr/lib/apache-netbeans/cndext:/usr/lib/apache-netbeans/cpplite:/usr/lib/apache-netbeans/dlight:/usr/lib/apache-netbeans/groovy:/usr/lib/apache-netbeans/extra:/usr/lib/apache-netbeans/javacard:/usr/lib/apache-netbeans/javafx:/usr/lib/apache-netbeans/rust: -J-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade -J-XX:+UseStringDeduplication -J-Xss2m -J-Dapple.laf.useScreenMenuBar=true -J-Dapple.awt.application.appearance=system -J-Dapple.awt.graphics.UseQuartz=true -J-Dsun.java2d.noddraw=true -J-Dsun.java2d.dpiaware=true -J-Dsun.zip.disableMemoryMapping=true -J-Dplugin.manager.check.updates=false -J-Dnetbeans.extbrowser.manual_chrome_plugin_install=yes -J--add-opens=java.base/java.net=ALL-UNNAMED -J--add-opens=java.base/java.lang.ref=ALL-UNNAMED -J--add-opens=java.base/java.lang=ALL-UNNAMED -J--add-opens=java.base/java.security=ALL-UNNAMED -J--add-opens=java.base/java.util=ALL-UNNAMED -J--add-opens=java.base/java.nio=ALL-UNNAMED -J--add-exports=java.base/sun.reflect.annotation=ALL-UNNAMED -J--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED -J--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED -J--add-opens=java.desktop/javax.swing.text=ALL-UNNAMED -J--add-opens=java.desktop/javax.swing=ALL-UNNAMED -J--add-opens=java.desktop/java.awt=ALL-UNNAMED -J--add-opens=java.desktop/java.awt.event=ALL-UNNAMED -J--add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED -J--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED -J--add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED -J--add-opens=java.desktop/sun.awt.shell=ALL-UNNAMED -J--add-opens=java.desktop/sun.awt.im=ALL-UNNAMED -J--add-exports=java.desktop/sun.awt=ALL-UNNAMED -J--add-exports=java.desktop/java.awt.peer=ALL-UNNAMED -J--add-exports=java.desktop/com.sun.beans.editors=ALL-UNNAMED -J--add-exports=java.desktop/sun.swing=ALL-UNNAMED -J--add-exports=java.desktop/sun.awt.im=ALL-UNNAMED -J--add-exports=java.desktop/com.sun.java.swing.plaf.motif=ALL-UNNAMED -J--add-exports=java.desktop/com.apple.eio=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED -J--add-opens=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED -J--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED -J--add-modules=jdk.jshell -J--add-opens=jdk.jshell/jdk.jshell=ALL-UNNAMED -J--add-exports=jdk.jdeps/com.sun.tools.classfile=ALL-UNNAMED -J--add-exports=jdk.jdeps/com.sun.tools.javap=ALL-UNNAMED -J--add-exports=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED -J--add-exports=java.management/sun.management=ALL-UNNAMED -J-XX:+IgnoreUnrecognizedVMOptions
+   4785 ?        /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djdk.home=/usr/lib/jvm/java-17-openjdk-amd64 -classpath /usr/lib/apache-netbeans/platform/lib/boot.jar:/usr/lib/apache-netbeans/platform/lib/org-openide-modules.jar:/usr/lib/apache-netbeans/platform/lib/org-openide-util.jar:/usr/lib/apache-netbeans/platform/lib/org-openide-util-lookup.jar:/usr/lib/apache-netbeans/platform/lib/org-openide-util-ui.jar -Dnetbeans.default_userdir_root=/home/j1/.netbeans -Dnetbeans.running.environment=gnome -Dnetbeans.dirs=/usr/lib/apache-netbeans/nb:/usr/lib/apache-netbeans/ergonomics:/usr/lib/apache-netbeans/ide:/usr/lib/apache-netbeans/extide:/usr/lib/apache-netbeans/java:/usr/lib/apache-netbeans/apisupport:/usr/lib/apache-netbeans/webcommon:/usr/lib/apache-netbeans/websvccommon:/usr/lib/apache-netbeans/enterprise:/usr/lib/apache-netbeans/mobility:/usr/lib/apache-netbeans/profiler:/usr/lib/apache-netbeans/python:/usr/lib/apache-netbeans/php:/usr/lib/apache-netbeans/identity:/usr/lib/apache-netbeans/harness:/usr/lib/apache-netbeans/cnd:/usr/lib/apache-netbeans/cndext:/usr/lib/apache-netbeans/cpplite:/usr/lib/apache-netbeans/dlight:/usr/lib/apache-netbeans/groovy:/usr/lib/apache-netbeans/extra:/usr/lib/apache-netbeans/javacard:/usr/lib/apache-netbeans/javafx:/usr/lib/apache-netbeans/rust: -Dnetbeans.home=/usr/lib/apache-netbeans/platform -Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade -XX:+UseStringDeduplication -Xss2m -Dapple.laf.useScreenMenuBar=true -Dapple.awt.application.appearance=system -Dapple.awt.graphics.UseQuartz=true -Dsun.java2d.noddraw=true -Dsun.java2d.dpiaware=true -Dsun.zip.disableMemoryMapping=true -Dplugin.manager.check.updates=false -Dnetbeans.extbrowser.manual_chrome_plugin_install=yes --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-exports=java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/sun.awt.shell=ALL-UNNAMED --add-opens=java.desktop/sun.awt.im=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/java.awt.peer=ALL-UNNAMED --add-exports=java.desktop/com.sun.beans.editors=ALL-UNNAMED --add-exports=java.desktop/sun.swing=ALL-UNNAMED --add-exports=java.desktop/sun.awt.im=ALL-UNNAMED --add-exports=java.desktop/com.sun.java.swing.plaf.motif=ALL-UNNAMED --add-exports=java.desktop/com.apple.eio=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-modules=jdk.jshell --add-opens=jdk.jshell/jdk.jshell=ALL-UNNAMED --add-exports=jdk.jdeps/com.sun.tools.classfile=ALL-UNNAMED --add-exports=jdk.jdeps/com.sun.tools.javap=ALL-UNNAMED --add-exports=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-exports=java.management/sun.management=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/j1/.netbeans/19/var/log/heapdump.hprof -Djava.security.manager=allow org.netbeans.Main --cachedir /home/j1/.cache/netbeans/19 --userdir /home/j1/.netbeans/19 --branding nb
+   5002 ?        [kworker/6:0-cgroup_destroy]
+   5093 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=71 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=700868496 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   5127 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=73 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=700964546 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   6007 ?        [kworker/9:1-events]
+   6453 ?        /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+   6467 ?        /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+   6506 ?        [kworker/4:0-events]
+   6507 ?        [kworker/8:0-events]
+   6833 ?        [kworker/u25:2]
+   7047 ?        /usr/libexec/tracker-store
+   7174 ?        /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3374 --enable-crash-reporter=1daeac64-60f0-4742-97bf-3a5b992e1104, --extension-process --disable-nacl --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --time-ticks-at-unix-epoch=-1705315941144103 --launch-time-ticks=1440525965 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12898136158835521545,3582356929445202615,262144 --variations-seed-version=20240110-180219.406000
+   7195 ?        /usr/lib/jvm/java-17-openjdk-amd64/bin/java -classpath /usr/lib/apache-netbeans/java/maven/boot/plexus-classworlds-2.7.0.jar -Dclassworlds.conf=/usr/lib/apache-netbeans/java/maven/bin/m2.conf -Dmaven.home=/usr/lib/apache-netbeans/java/maven -Dlibrary.jansi.path=/usr/lib/apache-netbeans/java/maven/lib/jansi-native -Dmaven.multiModuleProjectDirectory=/home/j1/Documents/Class/PSP/scriptsJava/Ejercicio3Redireccion org.codehaus.plexus.classworlds.launcher.Launcher -Dexec.vmArgs= -Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs} -Dexec.appArgs=seeexxxx -Dexec.mainClass=com.mycompany.ejercicio3redireccion.Ejercicio3Redireccion -Dexec.executable=/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Dmaven.ext.class.path=/usr/lib/apache-netbeans/java/maven-nblib/netbeans-eventspy.jar --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec
+   7241 ?        /usr/libexec/tracker-extract
+   7255 ?        /usr/lib/jvm/java-17-openjdk-amd64/bin/java -classpath /home/j1/Documents/Class/PSP/scriptsJava/Ejercicio3Redireccion/target/classes com.mycompany.ejercicio3redireccion.Ejercicio3Redireccion seeexxxx
+   7279 ?        ps -e -o pid,tty,command
