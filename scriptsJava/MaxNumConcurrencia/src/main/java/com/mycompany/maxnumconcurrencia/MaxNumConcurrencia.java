@@ -55,7 +55,7 @@ public class MaxNumConcurrencia {
 
             // Ejecutar el subproceso usando Runtime
             try {
-                Process process = Runtime.getRuntime().exec("java MaxNumSubproceso.java " + subvectorString);
+                Process process = Runtime.getRuntime().exec("java "+ currentPath +"/src/main/java/com/mycompany/maxnumconcurrencia/MaxNumSubproceso.java " + subvectorString);
 
                 // Leer la salida del subproceso
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
