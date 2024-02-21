@@ -1,7 +1,7 @@
-nombre = "TuNombre"
-apellidos = "TusApellidos"
-ciclo_formativo = "Nombre del Ciclo Formativo"
-fecha_nacimiento = "TuFechaDeNacimiento"
+nombre = "Juan"
+apellidos = "García Marín"
+ciclo_formativo = "Desarrollo de Aplicaciones Multiplataforma"
+fecha_nacimiento = "17/04/1999"
 
 print(f"Nombre: {nombre}")
 print(f"Apellidos: {apellidos}")
